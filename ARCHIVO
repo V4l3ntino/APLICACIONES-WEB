@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head> 
+            <title>Mi primera página web</title>
+    </head>
+
+    <body bgcolor="yellow" text="blue">
+        <h1>Prueba 01 de Aplicaicones web</h1> 
+        <p>
+            Bienvenidos al módulo de Aplicaciones web<br/>  
+            y al maravilloso mundo de la programación y <br/>
+            sdesarrollo Web. 
+        </p>
+
+    </body>
+
+</html>
+    
