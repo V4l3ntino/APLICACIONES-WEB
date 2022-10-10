@@ -1,0 +1,13 @@
+/*
+    Autor: Valentino Hontar Dos Santos
+    04 de Octubre de 2022
+*/
+
+
+h1 { text-align: center; 
+    background-color: rgba(201, 187, 63, 0.7);
+    margin: 10%;
+    padding: 30px; 
+    border-radius: 36px;    
+    width: 800px;
+}
