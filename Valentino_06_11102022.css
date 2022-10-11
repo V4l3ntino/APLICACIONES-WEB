@@ -1,0 +1,66 @@
+/*
+    Autor: Valentino Hontar Dos Santos
+    11 del 10 del 2022
+*/
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;   
+}
+
+.menuH{
+    overflow: hidden;
+    border: 5px double;
+
+}
+
+img{
+    float: left;
+    width: 72%;
+    border: 5px double;
+}
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+
+
+.menuV a{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    
+    
+}
+
+
+
+.menuV a:hover{
+    background-color: white;
+    color: black;
+
+
+}
+
+
+.menuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center
+    padding: 20px;
+   
+} 
+
+.menuH a:hover{
+    background-color: white;
+    color: black;
+}
