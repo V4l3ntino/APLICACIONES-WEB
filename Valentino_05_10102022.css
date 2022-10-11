@@ -1,0 +1,46 @@
+/*
+    Valentino Hontar Dos Santos 
+    10 de Octubre 
+*/
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    padding: 25px;
+    float: left;
+   
+}
+
+.negro{
+    background-color: grey;
+    clear: both;
+    width: 100%
+}
+
+.azul{
+    background-color: blue;
+    border-radius: 50%;
+    padding: 90px 50px 90px 50px;
+
+}
+
+.amarillo{
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 90px 50px 90px 50px;
+}
+
+.rojo{
+    background-color: red;
+    border-radius:50%;
+    padding: 90px 50px 90px 50px;
+}
+
+.verde{
+    background-color: green;
+    width: 100%;
+    clear: both;
+}

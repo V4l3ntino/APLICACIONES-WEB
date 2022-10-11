@@ -6,8 +6,15 @@
 
 h1 { text-align: center; 
     background-color: rgba(201, 187, 63, 0.7);
-    margin: 10%;
-    padding: 30px; 
-    border-radius: 36px;    
-    width: 800px;
+    margin: 50px;
+    padding: 90px 30px 90px 30px; 
+    border-radius: 50%;    
+    width: 30%;
+    clear: both;
+     
+}
+
+.TITULO {
+    width: 50%;
+    text-align: center;
 }
