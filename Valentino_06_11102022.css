@@ -10,44 +10,13 @@
 }
 
 .menuH{
-    overflow: hidden;
+    overflow: auto;
     border: 5px double;
+    width: 70%;
+    margin: 50px auto 25px auto;
+    background-color: blue;
 
 }
-
-img{
-    float: left;
-    width: 72%;
-    border: 5px double;
-}
-
-.menuV{
-    float: left;
-    width: 26%;
-    overflow: hidden;
-    border: 5px double;
-}
-
-
-.menuV a{
-    background-color: black;
-    color:white;
-    text-decoration: none;
-    padding: 20px;
-    display: flex;
-    
-    
-}
-
-
-
-.menuV a:hover{
-    background-color: white;
-    color: black;
-
-
-}
-
 
 .menuH a{
     background-color: black;
@@ -60,7 +29,43 @@ img{
    
 } 
 
-.menuH a:hover{
+.menuH a:hover, .menuV a:hover{
     background-color: white;
     color: black;
 }
+
+.section{
+    display: flex;
+}
+.section > aside{
+    display: flex;
+}
+.section > img{
+
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+.menuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+    margin-left: 15%;
+}
+
+
+.menuV a{
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+   
+    
+    
+}
+
