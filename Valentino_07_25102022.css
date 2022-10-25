@@ -1,0 +1,124 @@
+/* Valentino Hontar Dos Santos 
+día 25 de Octubre del 2022 */
+
+.{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.Titulo{ text-align: center;
+    border: dashed;
+    width: 40%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+section{ border: dashed;
+    margin: auto;
+    width: 50%;
+   
+    
+}
+.listdes{
+    background-color: red;
+}
+.listord{
+    background-color: yellow;
+}
+ol ol{list-style: lower-roman;}
+.listdef{
+    background-color: blueviolet;
+}
+.ROMANO{list-style-type: lower-roman;}
+.LATIN{list-style-type: lower-latin;}
+.GEORG{list-style-type: georgian;}
+.CPU{
+    list-style-type: none;
+    background-image: url(./IMAGENES/CPU.jpeg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+div{
+    padding-left: 30%;
+}
+.REFRI {
+    list-style-type: none;
+    background-image: url(./IMAGENES/REFRIGERACIÓN);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.FA{
+    list-style-type: none;
+    background-image: url(./IMAGENES/GRM--058S5W8P4-0-0G0D-0.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.PERIFERICO{
+    list-style-type: none;
+    background-image: url(./IMAGENES/71np2BXRx+L._AC_SY355_.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.MONITOR{
+    list-style-type: none;
+    background-image: url(./IMAGENES/MONITO-z32.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.PUERTOS{
+    list-style-type: none;
+    background-image: url(./IMAGENES/PUERTO.jpeg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.RED{
+    list-style-type: none;
+    background-image: url(./IMAGENES/tarjeta-de-red-wikimediacommons-adaptada.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.MEMORIA{
+    list-style-type: none;
+    background-image: url(./IMAGENES/memoria-ram-vs-disco-duro-300x189.webp);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
+.PLACA{
+    list-style-type: none;
+    background-image: url(./IMAGENES/gigabyte-z690-gaming-x-placa-base-intel-z690-express-lga-1700-atx-a.jpg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+.GPU{
+    list-style-type: none;
+    background-image: url(./IMAGENES/GPU.jpeg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 0px 0px 0px 45px
+}
+
