@@ -24,7 +24,7 @@
     text-decoration: none;
     float: left;
     width: 25%;
-    text-align: center
+    text-align: center;
     padding: 20px;
    
 } 
@@ -34,17 +34,19 @@
     color: black;
 }
 
-.section{
-    display: flex;
+section{
+    display: block;
 }
-.section > aside{
-    display: flex;
-}
-.section > img{
+    
+section > img{
 
-    width: 20px;
-    margin-left: 20px;
+    width: 600px;
+    margin-left: 5px;
+    float: left;
+    margin-right: 10%;
+    
 }
+
 
 
 
@@ -65,7 +67,5 @@
     padding: 20px;
     display: flex;
    
-    
-    
 }
 
