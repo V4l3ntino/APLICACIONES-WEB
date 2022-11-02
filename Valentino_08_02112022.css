@@ -33,7 +33,7 @@ header{
     display: grid;
     grid-template-columns: auto auto ;
     margin: auto;
-    width: 80%;
+    width: 70%;
     border: solid red;
     margin-top: 20px;
 }
