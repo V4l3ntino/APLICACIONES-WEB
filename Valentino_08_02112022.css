@@ -1,0 +1,44 @@
+/* Autor: Valentino Hontar Dos Santos 
+Miércoles 2 de Noviembre del 2022 */
+
+
+
+body{
+    background-image: url(./IMAGENES/light-blue-gradient-background-10.webp );
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+    
+}
+
+
+header{
+    border: solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.placabase{
+    width: 15%;
+}
+
+.monitor{
+    width: 17%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: auto;
+    width: 80%;
+    border: solid red;
+    margin-top: 20px;
+}
+
+.grid img{
+    width: 60%;
+    
+}
