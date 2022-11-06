@@ -1,0 +1,86 @@
+/* Autor: Valentino Hontar Dos Santos
+   Lunes 17 de Octubre de 2022 */
+
+
+body{
+
+    background-color: rgb(196, 179, 29);
+    border: solid;
+    border-radius: 20px;
+}
+
+.ROJO{
+
+    color: red;
+    
+}
+
+.NEGRITA{
+    font-weight: bold;
+   
+}
+
+.CURSIVA{
+    font-style: italic;
+    
+}
+
+.VERDE-SUBRAYADO{
+
+    color: green;
+    text-decoration: underline;
+}
+
+.AMARILLO{
+
+    color: rgb(238, 255, 0);
+
+
+}
+
+div{
+
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+
+   
+
+hr{
+    color: white;
+    height: 2px;
+    background-color: white;
+    border:rgb(255, 255, 255);
+}
+
+h1{
+    color:blue;
+}
+
+p{
+    color:blue;
+}
+
+
+
+.MARG-BORD{
+    padding-left: 30px;
+}
+
+.BLANK-PARR{
+    color:white;
+    border-style: dashed;
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.PARR1{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
