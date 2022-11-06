@@ -1,0 +1,109 @@
+/* Autor: Valentino Hontar Dos Santos 
+Miércoles 2 de Noviembre del 2022 */
+
+
+
+body{
+    background-image: url(./IMG-GRID/background.jpg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.{box-sizing: border-box;
+}
+
+header,footer{
+    border: solid;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+.grid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+   
+    
+    
+}
+.grid img{
+    width: 100%;
+    border: solid 5px white;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.grid img:hover{
+    transform: scale(1.5);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 15px grey;
+    
+   
+}
+img{  transition: all 0.5s linear;
+   
+}
+
+.logo{width: 30%;}
+
+.separador1{
+    height: 1500px;
+ 
+}
+.grid2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.grid2 img{
+    width: 100%;
+    border: solid 5px white;
+    margin: auto;
+    border-radius: 10%;
+
+}
+
+.grid2   img:hover{
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+.grid3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.grid3 img{
+    width: 100%;
+    border: solid 5px white;
+    margin: auto;
+    border-radius: 10%;
+
+
+}
+
+.grid3 img:hover{
+    -webkit-transform: rotate(360deg);
+
+    transition: 1.5s ease-in-out;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 15px 15px grey;
+}

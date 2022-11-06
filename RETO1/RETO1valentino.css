@@ -80,7 +80,25 @@ p{
     padding-top: 10px;
 }
 
+<<<<<<< HEAD
 .PARR1{
     padding-left: 100px;
     padding-bottom: 50px;
+=======
+.PARR1 {
+    padding-left: 100px;
+    padding-bottom: 50px;
+    color: white;
+    
+   
+}
+
+.PARR1 > img{
+    width: 30%;
+}
+
+.PARR1 > p{
+
+    
+>>>>>>> b4c0635c86a7cb58288a52e445fa41205954afc5
 }
