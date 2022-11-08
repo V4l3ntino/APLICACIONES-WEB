@@ -1,0 +1,49 @@
+/* Autor: Valentino Hontar Dos Santos
+día 8 de Noviembre del 2022 */
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header,footer{
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+    box-shadow: 5px -5px 10px black;
+    background: radial-gradient(white,green);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kolker Brush', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    height: fit-content;
+    background: linear-gradient(to  bottom left,red,white, blue);
+  
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    width: 60%;
+    margin: auto;
+
+}
+main > *{
+    width: 100%;
+    margin: 10px auto;
+    display: block;
+}
+
+iframe{
+    width: 100%;
+    border-radius: 60px;
+    height: 600px;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
