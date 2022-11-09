@@ -1,0 +1,21 @@
+/* Autor Valentino Hontar Dos Santos
+    Día 9 de Noviembre del 2022
+*/
+
+header,footer{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+section{
+    width: 33%;
+    float: left;
+
+}
+footer{
+    clear: both;
+}
+h2,h3{
+    text-align: center;
+}
