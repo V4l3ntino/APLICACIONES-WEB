@@ -101,7 +101,7 @@ img{  transition: all 0.5s linear;
 }
 
 .grid3 img:hover{
-    -webkit-transform: rotate(360000deg);
+    -webkit-transform: rotateY(360000deg);
 
     transition: 3s ease-in-out;
     -webkit-border-radius: 50%;
