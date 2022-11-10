@@ -1,0 +1,105 @@
+/* Autor Valentino Hontar Dos Santos
+Día 9 de Noviembre de 2022 */
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.fondo{
+    position:relative;
+}
+.texto{
+    border: solid black 5px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: .8;
+    width: 30%;
+    text-align: center;
+    margin-top: 24%;
+    margin-left: 35%;
+    position: absolute;
+    box-shadow: 2px 8px 2px; 
+       
+}
+.texto2{
+    
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    margin-top: 345px;
+    margin-left: 35%;
+    font-size: x-large;
+    text-shadow: 2px 8px 5px;
+    
+}
+.cuadro{
+    height: 1300px;
+}
+.recuadro1{
+    border: solid black 5px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: .8;
+    width: 30%;
+    text-align: center;
+    margin-top: 24%;
+    margin-left: 35%;
+    position: absolute;
+    box-shadow: 2px 8px 2px; 
+}
+.recuadro2{
+    border: solid black 5px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: .8;
+    width: 30%;
+    text-align: center;
+    margin-top: 1500px;
+    margin-left: 35%;
+    position: absolute;
+    box-shadow: 2px -8px 2px;
+}
+.recuadro{}
+
+.texto3{
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    margin-top: 70%;
+    margin-left: 15%;
+    margin-right: 35%;
+    font-size: x-large;
+    text-shadow: 2px 8px 5px black;
+    color: white;
+    
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    justify-content: space-between;
+
+}
+body{
+    height: 1200px;
+
+}
+.cap1{
+    background-image: url(./IDEX-IMG/1809395.jpg);
+    height: 700px;
+}
+.cap2{
+    background-image: url(./IDEX-IMG/html5.jpg);
+    height: 700px;
+}
+.cap3{
+    background-image: url(./IDEX-IMG/foto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
