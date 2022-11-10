@@ -30,7 +30,7 @@ Día 9 de Noviembre de 2022 */
     width: 30%;
     text-align: center;
     position: absolute;
-    margin-top: 345px;
+    margin-top: 399px;
     margin-left: 35%;
     font-size: x-large;
     text-shadow: 2px 8px 5px;
@@ -63,7 +63,9 @@ Día 9 de Noviembre de 2022 */
     position: absolute;
     box-shadow: 2px -8px 2px;
 }
-.recuadro{}
+.recuadro{
+    height: 200px;
+}
 
 .texto3{
     width: 30%;
