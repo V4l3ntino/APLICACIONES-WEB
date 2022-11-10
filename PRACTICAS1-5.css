@@ -1,0 +1,47 @@
+/*
+Valentino Hontar Dos Santos
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 15px;
+}
+.menuvertical{  
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    transition: all 2s ease;
+    
+}
+.menuvertical a{
+
+    color: white;
+    text-decoration: none;
+    padding:10% 0% 10% 30%;
+    display: flex;
+    border: solid 10px rgb(233, 157, 15);
+    font-size: x-large;
+    border-radius: 20px;
+    
+}
+body{
+    background-image: url(./IDEX-IMG/display1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    transition: all 10s linear;
+}
+h1{
+    transition: all 2s ease;
+}
+h1 :hover{
+    transform: scale(2.5);
+    
+    
+}
+.menuvertical a :hover{
+    transform: scale(2.5);
+    color: rgb(187, 134, 19);
+}

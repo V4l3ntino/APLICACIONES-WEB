@@ -1,0 +1,87 @@
+/*
+Valentino Hontar Dos Santos
+*/
+
+*{
+box-sizing: border-box;
+margin: 0px;
+}
+
+.p1{
+    background-color: blue;
+    height: 300px;
+}
+.p2{
+    background-color: orange;
+    height: 800px;
+}
+.cl1{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-left: 15%;
+    margin-top: 10%;
+    
+}
+.cl1 a{
+    color: white;
+    text-decoration: none;
+    padding:10% 0% 10% 30%;
+    display: flex;
+    border: solid 10px rgb(233, 157, 15);
+    font-size: x-large;
+    border-radius: 20px;
+    margin-top:60px;
+   
+}
+.cl2{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.cl2 a{
+    color: white;
+    text-decoration: none;
+    padding:10% 0% 10% 30%;
+    display: flex;
+    border: solid 10px rgb(233, 157, 15);
+    font-size: x-large;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.cl3{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+}
+.cl3 a{
+    color: white;
+    text-decoration: none;
+    
+    display: flex;
+    border: solid 10px rgb(233, 157, 15);
+    font-size: xxx-large;
+    border-radius: 20px;
+    padding-left: 28%;
+}
+.titulo{
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 8%;
+    width: 90%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    border: solid 10px rgb(233, 157, 15);
+    font-size: xx-large;
+    border-radius: 20px;
+    padding-left: 20%;
+}
