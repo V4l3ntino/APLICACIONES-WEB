@@ -19,3 +19,14 @@ footer{
 h2,h3{
     text-align: center;
 }
+.footer{
+position: fixed;
+bottom: 0px;
+width:100%;
+display: flex;
+justify-content: space-between;
+color: black;
+}
+.logo{
+width: 5%;
+}

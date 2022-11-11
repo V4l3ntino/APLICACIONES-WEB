@@ -1,0 +1,14 @@
+/*
+    Valentino Hontar Dos Santos 
+    11 de Noviembre de 2022 
+*/
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+
+}

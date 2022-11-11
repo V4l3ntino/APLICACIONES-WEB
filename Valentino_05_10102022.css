@@ -44,3 +44,13 @@ div{
     width: 100%;
     clear: both;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 5%;
+}

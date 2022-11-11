@@ -22,6 +22,7 @@ header,footer{
     margin: auto;
     background-color: white;
 }
+/*Cuadrícula de las imágenes de la parte de arriba*/
 .grid{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -59,6 +60,7 @@ img{  transition: all 0.5s linear;
     height: 1500px;
  
 }
+/*Grid2 es solo de decoración, representan las dos líneas horizontales*/
 .grid2{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -81,6 +83,7 @@ img{  transition: all 0.5s linear;
     transform: scale(1.5);
     border-radius: 10px;
 }
+/*Cuadrícula de las imágenes de la parte de abajo*/
 .grid3{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -106,5 +109,17 @@ img{  transition: all 0.5s linear;
     transition: 3s ease-in-out;
     -webkit-border-radius: 50%;
     -webkit-box-shadow: 0px 0px 15px 15px grey;
+}
+
+.footer{
+position: fixed;
+bottom: 0px;
+width:100%;
+display: flex;
+justify-content: space-between;
+color: white;
+}
+.logo{
+width: 5%;
 }
 
