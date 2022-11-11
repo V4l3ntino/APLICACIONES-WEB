@@ -16,7 +16,7 @@ h1 { background-color: rgba(91, 202, 76, 0.7);
     padding: 20px; 
     border-radius: 36px;    
 }
-
+/* El marquee es la etiqueta que sirve para dar movimiento los objetos */
 marquee {
 
     
