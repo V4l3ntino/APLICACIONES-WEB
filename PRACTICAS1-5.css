@@ -9,7 +9,7 @@ Valentino Hontar Dos Santos
 .menuvertical{  
     float: left;
     width: 50%;
-    overflow: hidden;
+    
     margin-left: 25%;
     transition: all 2s ease;
     
@@ -18,7 +18,7 @@ Valentino Hontar Dos Santos
 
     color: white;
     text-decoration: none;
-    padding:10% 0% 10% 30%;
+    padding:5% 0% 5% 30%;
     display: flex;
     border: solid 10px rgb(233, 157, 15);
     font-size: x-large;
@@ -33,15 +33,19 @@ body{
     background-attachment: fixed;
     transition: all 10s linear;
 }
-h1{
-    transition: all 2s ease;
-}
-h1 :hover{
-    transform: scale(2.5);
-    
-    
-}
+
+
 a :hover{
     transform: scale(2.5);
     color: rgb(187, 134, 19);
+    transition: all 2s ease;
+    text-shadow: 3px 3px 3px 5px;
+    box-shadow: 4px 4px 4px  white;
+    border-radius: 50%;
+    border:solid orange 2px;
+}
+.menuvertical :hover{
+    background-color: black ;
+    
+
 }
