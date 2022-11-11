@@ -41,7 +41,7 @@ h1 :hover{
     
     
 }
-.menuvertical a :hover{
+a :hover{
     transform: scale(2.5);
     color: rgb(187, 134, 19);
 }

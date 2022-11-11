@@ -8,53 +8,147 @@ margin: 0px;
 }
 
 .p1{
-    background-color: blue;
+    background-image: url(./IDEX-IMG/prueba6.jpg);
     height: 300px;
+    background-position: center center;
+    background-size: cover;
+    
+    background-attachment: fixed;
 }
 .p2{
-    background-color: orange;
-    height: 800px;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30%;
+    width: 95%;
+    margin-left: 2%;
+    border: solid 10px purple
 }
 .cl1{
     float: left;
-    width: 25%;
+    width: 35%;
     overflow: hidden;
-    margin-left: 15%;
-    margin-top: 10%;
+    margin-left: 0%;
+    margin-top: 12.5%;
+   
+    height: 600px;
+
     
 }
 .cl1 a{
     color: white;
     text-decoration: none;
-    padding:10% 0% 10% 30%;
+    padding:10% 0% 10% 15%;
     display: flex;
-    border: solid 10px rgb(233, 157, 15);
+    border: solid 10px purple;
     font-size: x-large;
     border-radius: 20px;
-    margin-top:60px;
+    margin-top:80px;
+    width: 60%;
+    margin-left: 20%;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+    
    
 }
 .cl2{
-    float: left;
-    width: 25%;
+    float: right;
+    width: 35%;
     overflow: hidden;
-    margin-left: 25%;
-    margin-top: 15%;
-    margin-left: 20%;
+    margin-top: 12.5%;
+    height: 600px;
+    
 }
 .cl2 a{
     color: white;
     text-decoration: none;
     padding:10% 0% 10% 30%;
     display: flex;
-    border: solid 10px rgb(233, 157, 15);
+    border: solid 10px purple;
     font-size: x-large;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 80px;
+    width: 60%;
+    padding:10% 0% 10% 15%;
+    margin-left: 20%;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+.caja{
+   
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 21%;
+    position: absolute;
+    height: 250px;
+    
+
+}
+.caja a{
+    color: white;
+    text-decoration: none;
+    padding:10% 0% 10% 15%;
+    display: flex;
+    border: solid 10px purple;
+    font-size: x-large;
+    border-radius: 20px;
+    margin-top:40px;
+    width: 60%;
+    margin-left: 10%;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: contain;
+    
+}
+.caja a:hover{
+    transform: scale(1.5);
+    color: purple;
+    text-shadow: 2px 2px 5px;
+    transition: all 2s ease;
+    box-shadow: 2px 2px 5px;
+    background-image: url(./IDEX-IMG/triangle2.jpg);
+    background-attachment: fixed;
+    
+    background-size: cover;
+
+}
+.cl1 a:hover{
+    transform: scale(1.5);
+    color: purple;
+    text-shadow: 2px 2px 5px;
+    transition: all 2s ease;
+    box-shadow: 2px 2px 5px;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+.cl2 a:hover{
+    transform: scale(1.5);
+    color: purple;
+    text-shadow: 2px 2px 5px;
+    transition: all 2s ease;
+    box-shadow: 2px 2px 5px;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    
+    background-size: cover;
+    
+}
+
+
 .cl3{
     float: left;
-    width: 25%;
+    
     overflow: hidden;
     margin-left: 5%;
     margin-top: 10%;
@@ -65,23 +159,51 @@ margin: 0px;
     text-decoration: none;
     
     display: flex;
-    border: solid 10px rgb(233, 157, 15);
+    border: solid 10px purple;
     font-size: xxx-large;
     border-radius: 20px;
-    padding-left: 28%;
+    text-align: center;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    padding-left: 35%;
+    
 }
 .titulo{
-    float: left;
-    width: 25%;
-    overflow: hidden;
+    
+    
+    
     margin-left: 5%;
-    margin-top: 8%;
+    margin-top: 5%;
     width: 90%;
     color: white;
     text-decoration: none;
-    display: flex;
-    border: solid 10px rgb(233, 157, 15);
+    border: solid 10px purple;
     font-size: xx-large;
     border-radius: 20px;
-    padding-left: 20%;
+    
+}
+h1{
+    
+    text-align: center;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+header{
+    
+    text-align: center;
+    background-image: url(./IDEX-IMG/prueba3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+body{
+    background-image: url(/IDEX-IMG/prueba6.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
