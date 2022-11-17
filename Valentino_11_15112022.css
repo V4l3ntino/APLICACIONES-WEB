@@ -54,19 +54,20 @@ td{
     
 }
 table{
-    
+    background-image: linear-gradient( aqua,green) ;
     border-collapse: collapse;
     width: 80%;
     margin: auto;
     margin-top: 200px;
 }
 .blanco{
-    border: white;
+   
     border-right: rgb(223, 214, 214) 2px solid ;
+    background-color: white;
 }
 img{
    width: 50%;
-   
+   border-radius: 10px;
    margin-left: 50px;
    margin-right:60px;
 }
@@ -77,4 +78,9 @@ img{
 }
 .xiaomi{
     width: 20%;
+}
+.parche{
+    background-color: white;
+    position: absolute;
+    width: 392px;
 }
