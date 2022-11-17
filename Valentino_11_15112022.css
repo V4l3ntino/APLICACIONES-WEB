@@ -11,51 +11,70 @@ Valentino Hontar Dos Santos
 .f1{
     width: 25%;
     font-weight: bolder;
+    text-align: left;
     
     
 }
-
+.F1{
+   background-color: rgb(158, 247, 217);
+}
+.F2{
+    background-color: gray;
+}
 .f2{
     width: 25%;
     font-weight: bolder;
-    
+    text-align: left;
 }
 .f3{
     width: 25%;
     font-weight: bolder;
-    
+    text-align: left;
 }
 .f4{
     width: 25%;
     font-weight: bolder;
-    
+    text-align: left;
 }
 .f5{
     width: 25%;
     font-weight: bolder;
-    
+    text-align: left;
 }
 .f6{
     width: 25%;
     font-weight: bolder;
-    
+    text-align: left;
 }
 td{
-    border-bottom: black 5px solid ;
+    border-right: rgb(223, 214, 214) 2px solid ;
+    border-bottom: rgb(223, 214, 214) 2px solid ;
+    text-align: center;
+   
     
 }
 table{
     
     border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
 }
 .blanco{
     border: white;
+    border-right: rgb(223, 214, 214) 2px solid ;
 }
 img{
    width: 50%;
    
    margin-left: 50px;
+   margin-right:60px;
 }
-.fotos{
-    border-bottom: white;
+.sony{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 17%;
+}
+.xiaomi{
+    width: 20%;
 }
