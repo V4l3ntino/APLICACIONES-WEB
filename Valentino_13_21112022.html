@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./Valentino_13_21112022.css">
+    <script>
+        function Mostrar() {
+            var x = document.getElementById("pass");
+            if (x.type == "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>INCIDENCIAS</h1>
+    <form action="contact.php" method="post" class="formulario" target="_blank">
+        <input type="text" placeholder="Escribe tu nombre" name="nombre">
+        <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico">
+        <input type="tel" name="telefono" id="telefono" placeholder="Número de teléfono">
+        <input type="color" name="color" id="color">
+        <input type="range" name="rango" id="rango" value="40">
+        <textarea name="campo" id="campo" cols="30" rows="10">
+    Escribe aquí tu mensaje:
+
+        </textarea>
+        <select name="pais" id="pais">
+            <option value="España" selected>España</option>
+            <option value="Italia">Italia</option>
+            <option value="Francia">Francia</option>
+            <option value="Inglaterra">Inglaterra</option>
+            <option value="Otro">Otro</option>
+
+        </select>
+        <input type="password" name="pass" id="pass">
+        <input type="checkbox" name="casiya" id="casiya" onclick="Mostrar()">
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
