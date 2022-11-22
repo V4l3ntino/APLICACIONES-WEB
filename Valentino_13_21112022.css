@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.formulario{
+    width: 50%;
+    margin:5em auto 0em auto;
+    background-color: rgb(247, 147, 25);
+    border: solid 5px black;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    padding: 1em;
+    width: 90%;
+    margin: 2em auto 2em auto;
+    background-color: rgb(255, 209, 2);    
+}
+.nombre{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+}
+.parol{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3em;
+}
+h1{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 5em;
+}

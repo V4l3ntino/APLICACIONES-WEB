@@ -20,25 +20,52 @@
 <body>
     <h1>INCIDENCIAS</h1>
     <form action="contact.php" method="post" class="formulario" target="_blank">
-        <input type="text" placeholder="Escribe tu nombre" name="nombre">
-        <input type="email" name="email" id="email" placeholder="Escribe tu correo electrónico">
-        <input type="tel" name="telefono" id="telefono" placeholder="Número de teléfono">
-        <input type="color" name="color" id="color">
-        <input type="range" name="rango" id="rango" value="40">
+        <div class="nombre">
+            <label for="text"> Escribe aquí tu nombre</label>
+            <input type="text" placeholder="Nombre y Apellidos" name="nombre">
+            <label for="date">Muestra la fecha de la incidencia</label>
+            <input type="date" name="fecha" id="fecha">
+            <label for="text"> Escribe aquí tu correo electrónico</label>
+            <input type="email" name="email" id="email" placeholder="Solo con @gmail">
+            <label for="telefono">Número de teléfono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Debe empezar por +34">
+            <label for="color">Elige un color</label>
+            <input type="color" name="color" id="color">
+        </div>
+        <label for="range">Escoge como de grave es la incidencia</label>
+        <input type="range" name="rango" id="rango" value="10">
+        <label for="number">Expresa en números como de grave es la incidencia</label>
+        <input type="number" id="b" name="b" min="0" max="100" step="10" value="30">
+        <label for="textarea">Explica el motivo de la incidencia aquí</label>
         <textarea name="campo" id="campo" cols="30" rows="10">
-    Escribe aquí tu mensaje:
-
         </textarea>
+        <label for="pais">Indica de que país eres</label>
         <select name="pais" id="pais">
             <option value="España" selected>España</option>
             <option value="Italia">Italia</option>
             <option value="Francia">Francia</option>
             <option value="Inglaterra">Inglaterra</option>
-            <option value="Otro">Otro</option>
-
+            <option value="Otro">Otro</option>                                  
         </select>
-        <input type="password" name="pass" id="pass">
-        <input type="checkbox" name="casiya" id="casiya" onclick="Mostrar()">
+        
+        <fieldset>
+            <legend>Campos especiales</legend>    
+            <div class="parol">
+                
+                <!--Hago dos cajas para juntar el checkbox con la constraseña-->
+                <div class="caja">
+                    <label for="usuario">Escribe tu nombre de usuario</label>
+                    <input type="text" name="usuario" id="usuario">
+                    <div class="parol">
+                        <label for="pass">Tu contraseña</label>
+                        <div class="constr">
+                            <input type="password" name="pass" id="pass" placeholder="Contraseña">
+                            <input type="checkbox" name="casiya" id="casiya" onclick="Mostrar()">
+                    </div>
+                        </div>
+                </div>
+            </div>
+        </fieldset>
         <input type="submit" value="Enviar">
 
     </form>
