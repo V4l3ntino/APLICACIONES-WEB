@@ -9,7 +9,7 @@ html{
 section{
     background-color: bisque;
 } 
-p{
+.parrafo{
     background-color: aqua;
     padding: 20px;
 }
@@ -41,6 +41,17 @@ section a{
     padding-left: 20px;
     text-decoration: none;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 5%;
+}
+
 @media(max-width: 600px){
     nav{
         flex-direction: column;

@@ -40,3 +40,13 @@ p::first-letter{
 p::first-line{
     color: green;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 5%;
+}

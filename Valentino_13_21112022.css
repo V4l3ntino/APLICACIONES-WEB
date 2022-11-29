@@ -36,3 +36,13 @@ h1{
     margin-top: 2em;
     font-size: 5em;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 5%;
+}
