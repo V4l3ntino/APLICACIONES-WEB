@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Valentino_15_28112022.css">
-    
+    <script>
+        function Mostrar(){
+            var elemento = document.getElementById("imagen")
+            elemento.style.display = "block";
+        }
+        function Ocultar(){
+            var elemento = document.getElementById("imagen");
+            elemento.style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <nav id="Menu">
         <a href="#Inicio">Inicio</a>
         <a href="#Servicios">Servicios</a>
-        <a href="#Galeria">Galería</a>
+        <a href="#Galeria" onmouseover="Mostrar()" onmouseout="Ocultar()">Galería</a>
         <a href="#Contacto">Contacto</a>
     </nav>
+    <img id="imagen" src="./IMG-GRID/1.jpg" alt="">
     <section id="Inicio">
         <h1>Inicio</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus rem quos, magnam corrupti modi eum assumenda voluptatum reprehenderit hic explicabo sunt, accusantium sed quidem inventore! Eligendi porro quis accusantium asperiores? </p>
