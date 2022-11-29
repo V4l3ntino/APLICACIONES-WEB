@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+aside a{
+    background-color: rgba(0, 0, 0, 0.689);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    border-radius: 20px;
+    text-align: center;
+    border: solid 5px purple;
+    color: purple;
+    text-decoration: none;
+    width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+aside{
+    margin-top: 7em;
+    position: relative;
+    width: 30%;
+    margin: auto;    
+}
+aside a:hover{
+    background-color: purple;
+    color: white;
+    transform: scale(1.1);
+    
+}
+h1{
+    font-size: 50px;
+    
+    margin-bottom: 40px;
+    color: white;
+    position:relative;
+    text-align: center;
+}
+body{
+    height: 900px;
+}
+video{
+    min-width: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+}
