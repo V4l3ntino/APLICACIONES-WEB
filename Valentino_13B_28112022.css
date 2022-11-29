@@ -19,7 +19,7 @@ header{
     text-transform: uppercase;
     font-size: 2em;
     color: white;
-    
+    z-index: 1;
     
 }
 footer{
@@ -27,7 +27,6 @@ footer{
     font-size: 6vh;
     color: white;
     opacity: 0.9;
-    
 }
 .caja{
     background-color:rgba(255, 255, 255, 0.352);
@@ -55,7 +54,7 @@ video{
 #v1{
     max-width: 100%;
     min-width: 100%;
-    opacity: 0.9;
+    
 }
 #v2{
     max-width: 30em;
@@ -65,4 +64,15 @@ video{
     border-radius: 10%;
     border: 5px black solid;
     opacity: 0.8;
+}
+@media(min-width:1300px){
+    #v2{
+        max-width: 40em;
+        max-height: 40em;
+        right: 25%;
+        top: 25%;
+        border-radius: 10%;
+        border: 5px black solid;
+        opacity: 0.8;
+    }
 }
